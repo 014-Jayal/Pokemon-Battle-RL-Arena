@@ -25,28 +25,23 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ```mermaid
 graph TD
-  subgraph Training_Loop
-    A[Agent - PPO Model]
-    E[Environment - PokemonBattleEnv]
-    O[Observation/State]
-    R[Reward]
-    A -->|Select Action| E
-    E -->|New State| O
-    E -->|Reward| R
-    O -->|Feed Observation| A
-    R -->|Update Policy| A
-  end
+  A[Agent - PPO Model]
+  E[Environment - PokemonBattleEnv]
+  O[Observation/State]
+  R[Reward]
+  P1[Player Pokemon (Agent)]
+  P2[Opponent Pokemon (Environment)]
 
-  subgraph Battle_Simulation
-    P1[Player Pokemon (Agent)]
-    P2[Opponent Pokemon (Environment)]
-  end
+  A -->|Select Action| E
+  E -->|New State| O
+  E -->|Reward| R
+  O -->|Feed Observation| A
+  R -->|Update Policy| A
 
   P1 --> A
   P2 --> E
   E -->|Battle Outcome| P1
   A -->|Improved Strategy| P1
-```
 
 ---
 
