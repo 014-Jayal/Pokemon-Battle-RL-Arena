@@ -1,0 +1,8 @@
+gymnasium
+stable-baselines3[extra]
+torch
+moviepy
+opencv-python
+pillow
+requests
+numpy
