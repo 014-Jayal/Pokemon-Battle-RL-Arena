@@ -23,25 +23,7 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ## ⚙️ System Architecture
 
-```mermaid
-graph TD
-  A[Agent - PPO Model]
-  E[Environment - PokemonBattleEnv]
-  O[Observation/State]
-  R[Reward]
-  P1[Player Pokemon (Agent)]
-  P2[Opponent Pokemon (Environment)]
-
-  A -->|Select Action| E
-  E -->|New State| O
-  E -->|Reward| R
-  O -->|Feed Observation| A
-  R -->|Update Policy| A
-
-  P1 --> A
-  P2 --> E
-  E -->|Battle Outcome| P1
-  A -->|Improved Strategy| P1
+![Architecture](assets/architecture.png)
 
 ---
 
