@@ -1,4 +1,4 @@
-# 🎮 Pokémon Battle Arena: Reinforcement Learning Project
+# Pokémon Battle Arena: Reinforcement Learning Project
 
 > **An AI Agent that learns to master Pokémon-style battles using Reinforcement Learning (PPO)**  
 
@@ -6,14 +6,14 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 This project implements a **Reinforcement Learning (RL)** framework where an AI agent learns to win **Pokémon battles** using **Proximal Policy Optimization (PPO)**.  
 Built completely from scratch, it combines **custom environment design**, **type-based combat mechanics**, and **cinematic video visualization** of battles.
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 > Can an AI agent, without any pre-programmed rules, learn to play and win Pokémon battles purely through Reinforcement Learning?
 
@@ -21,13 +21,13 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ---
 
-## ⚙️ System Architecture
+## System Architecture
 
 ![Architecture](assets/architecture.png)
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
 ✅ **Custom RL Environment** — Built entirely using `gymnasium`  
 ✅ **PPO Agent (Stable-Baselines3)** — Learns through self-play and reward optimization  
@@ -38,7 +38,7 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ---
 
-## 🧩 Methodology
+## Methodology
 
 1. **Custom Environment Creation**  
    - Defines HP, Energy, Actions, and Type Advantages  
@@ -55,7 +55,7 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ---
 
-## 🎬 Demo Battles
+## Demo Battles
 
 ### Example Battle 1
 ![Battle Demo 1](assets/battle_demo_1.png)
@@ -65,7 +65,7 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ---
 
-## 📊 Results
+## Results
 
 | Opponent | Type | Result |
 |-----------|-------|--------|
@@ -77,7 +77,7 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 | Category | Tools |
 |-----------|--------|
@@ -90,7 +90,7 @@ This project builds a **custom Gymnasium environment** that allows an RL agent t
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1️⃣ Clone Repository
 ```bash
@@ -113,7 +113,7 @@ After training, run the **tournament cell** — it will:
 
 ---
 
-## 📚 References
+## References
 
 - Schulman et al., *Proximal Policy Optimization Algorithms*, OpenAI (2017)  
 - Stable Baselines3 Documentation  
@@ -122,18 +122,18 @@ After training, run the **tournament cell** — it will:
 
 ---
 
-## 👥 Team & Credits
+## Team & Credits
 
 **Authors:**  
-- Jayal Shah  
-- Mayank Jangid  
-- Dhairya Jadav  
+- [Jayal Shah](https://www.linkedin.com/in/jayal-shah04/)  
+- [Mayank Jangid](https://www.linkedin.com/in/mayank-jangid-0a5207359/)  
+- [Dhairya Jadav](https://www.linkedin.com/in/dhairya-jadav-231217290/)  
 
-**Mentor:** Palwinder Singh  
+**Mentor:** - [Palwinder Singh](https://www.linkedin.com/in/palwinder-singh-527960134/) 
 
 ---
 
-## 🏁 Future Scope
+## Future Scope
 - Add advanced moves (e.g., status effects, elemental buffs)  
 - Expand to 3D animation (Unity/Blender integration)  
 - Include live Streamlit dashboard for real-time battle visualizations  
